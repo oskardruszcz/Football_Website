@@ -25,10 +25,10 @@ To run the project locally, follow these steps:
    git clone https://github.com/your-username/football-website.git
 2. Navigate into the project directory:
    cd football-website
-3. Open the index.html file in your preferred browser:
+3. Open the `index.html` file in your preferred browser:
    On most systems, you can simply double-click the index.html file, or right-click and choose "Open with" and select your preferred browser.
 
 ## Usage
-- Open the index.html file in your browser.
+- Open the `index.html` file in your browser.
 - The homepage contains links to different sections: Football History, Rules of the Game, Famous Football Players, Contact Form, and the Interactive Quiz.
 - You can navigate through the site, read the content, fill out the contact form, and take the quiz.
