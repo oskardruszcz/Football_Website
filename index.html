@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piłka Nożna</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Piłka Nożna</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Strona Główna</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="reguly.html">Reguły Gry</a></li>
+                    <li><a href="slawni.html">Słynni Piłkarze</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero" style="background-image: url('images/hero.jpg');">
+            <div class="hero-content">
+                <h2>Witamy na stronie poświęconej piłce nożnej</h2>
+                <p>Dowiedz się więcej o historii, zasadach gry, słynnych piłkarzach i wiele więcej.</p>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <h2>O Piłce Nożnej</h2>
+                <p>Piłka nożna to najpopularniejszy sport na świecie, który łączy ludzi niezależnie od narodowości, wieku czy płci. Każdy mecz to okazja do emocji i rywalizacji na najwyższym poziomie.</p>
+                <div class="image-gallery">
+                    <img src="images/5.jpg" alt="Piłka Nożna" class="gallery-img">
+                    <img src="images/6.jpeg" alt="Stadion" class="gallery-img">
+                    <img src="images/7.jpeg" alt="Kibice" class="gallery-img">
+                </div>
+            </div>
+        </section>
+        <section class="tile-container">
+            <div class="tile" onclick="location.href='historia.html'">
+                <img src="images/1.jpg" alt="Historia piłki nożnej">
+                <h2>Historia</h2>
+                <p>Poznaj fascynującą historię piłki nożnej od jej początków do współczesności.</p>
+            </div>
+            <div class="tile" onclick="location.href='reguly.html'">
+                <img src="images/2.jpg" alt="Reguły Gry">
+                <h2>Reguły Gry</h2>
+                <p>Zrozum podstawowe zasady gry w piłkę nożną.</p>
+            </div>
+            <div class="tile" onclick="location.href='slawni.html'">
+                <img src="images/3.jpg" alt="Słynni Piłkarze">
+                <h2>Słynni Piłkarze</h2>
+                <p>Odkryj sylwetki najsłynniejszych piłkarzy w historii piłki nożnej.</p>
+            </div>
+            <div class="tile" onclick="location.href='kontakt.html'">
+                <img src="images/4.jpg" alt="Kontakt">
+                <h2>Kontakt</h2>
+                <p>Skontaktuj się z nami, jeśli masz jakiekolwiek pytania lub sugestie.</p>
+            </div>
+        </section>
+        <section class="interactive-section">
+            <div class="container">
+                <div class="quiz">
+                    <h2>Quiz Piłkarski</h2>
+                    <p>Sprawdź swoją wiedzę na temat piłki nożnej!</p>
+                    <button class="quiz-button" onclick="location.href='quiz.html'">Rozpocznij Quiz</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oskar Druszcz. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+</body>
+</html>
